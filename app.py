@@ -27,7 +27,7 @@ container = Config.get('DEFAULT', 'container')
 blob_service = BlockBlobService(account_name=account, account_key=key)
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         file = request.files['file']

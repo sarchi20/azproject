@@ -10,5 +10,5 @@ For both the VMs, follow the steps to set them up :
   4. After running the scripts, please edit config.py file on VM1, and enter the details
      related to your storage account, where the files will be uploaded
   5. Once done, please run the following command
-          sudo python3 app.py  
+          "sudo python3 app.py"  
   
